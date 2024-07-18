@@ -1,0 +1,1476 @@
+[06:34:08] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
+[06:34:09] [ForkJoinPool-1-worker-1/WARN]: Mod hamsters uses the version fabric-1.0.3-1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:34:09] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:34:10] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.20.1-9.1.15 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[06:34:11] [main/WARN]: Warnings were found!
+ - Mod 'Every Compat' (everycomp) 1.20-2.6.40 recommends any version of sawmill, which is missing!
+	 - You should install any version of sawmill for the optimal experience.
+ - Mod 'Lovely Snails' (lovely_snails) 1.1.3+1.20.1 recommends version 0.19.1 or later of quilt_loader, which is missing!
+	 - You should install version 0.19.1 or later of quilt_loader for the optimal experience.
+ - Mod 'More Mobs' (moremobs) 1.5.1+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Scout' (scout) 2.0.4+1.20.1 recommends version 1.1.3 or later of emi, which is missing!
+	 - You should install version 1.1.3 or later of emi for the optimal experience.
+[06:34:11] [main/INFO]: Loading 299 mods:
+	- allthetrims 3.4.3
+	   \-- mixinsquared 0.1.1
+	- alternate-current 1.8.0-beta.4
+	- amendments 1.20-1.2.8
+	- aqupdgrizzly 1.20-1.6.1
+	- architectury 9.2.14
+	- ash_api 3.0.2+1.20.1
+	- athena 3.1.2
+	- axiom 3.2.1
+	   |-- com_moulberry_axiomclientapi_axiomclientapi_ 1.0.0
+	   \-- com_moulberry_mixinconstraints 1.0.1
+	- backpacked 3.0.0-beta.4
+	   \-- mm 2.3
+	- betterarcheology 1.1.9-1.20.1
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.20-Fabric-4.0.4
+	- betterendisland 1.20-Fabric-2.0.6
+	- betterfortresses 1.20-Fabric-2.0.6
+	- betterjungletemples 1.20-Fabric-2.0.5
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- bettervillage 3.1.0
+	- betterwitchhuts 1.20-Fabric-3.0.3
+	- bookshelf 20.2.13
+	- bosses_of_mass_destruction 1.7.5-1.20.1
+	   |-- maelstrom_library 1.6.1-1.20
+	   \-- multipart_entities 1.5-1.20
+	- bygonenether 1.3.2
+	- cardinal-components 5.2.2
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-block 5.2.2
+	   |-- cardinal-components-chunk 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- cardinal-components-item 5.2.2
+	   |-- cardinal-components-level 5.2.2
+	   |-- cardinal-components-scoreboard 5.2.2
+	   \-- cardinal-components-world 5.2.2
+	- carryon 2.1.2.7
+	- chipped 3.0.6
+	- chiselsandbits 1.4.148
+	   |-- org_lz4_lz4-pure-java 1.8.0
+	   |-- saeculariacaudices 1.0.23
+	   \-- scena 1.0.103
+	        \-- saeculariacaudices 1.0.23
+	- chunky 1.3.146
+	- cicada 0.8.0+1.20.1
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.70
+	- connectiblechains 2.2.1+1.20.1
+	- crafttweaker 14.0.40
+	- crawl 0.12.0
+	   \-- mm 2.3
+	- create 0.5.1-f-build.1417+mc1.20.1
+	   |-- com_electronwill_night-config_core 3.6.6
+	   |-- com_electronwill_night-config_toml 3.6.6
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_base 2.3.2+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_config 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.2+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_utility 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_client_events 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_entity 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.2+1.20.1
+	   |-- porting_lib_extensions 2.3.2+1.20.1
+	   |    |-- porting_lib_attributes 2.3.2+1.20.1
+	   |    |-- porting_lib_common 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    |-- porting_lib_fluids 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_networking 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_obj_loader 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_tool_actions 2.3.2+1.20.1
+	   |    \-- porting_lib_core 2.3.2+1.20.1
+	   |-- porting_lib_transfer 2.3.2+1.20.1
+	   |    |-- porting_lib_core 2.3.2+1.20.1
+	   |    \-- porting_lib_fluids 2.3.2+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- creativecore 2.11.30
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- creeperoverhaul 3.0.2
+	- cristellib 1.1.5
+	   \-- blue_endless_jankson 1.2.3
+	- croptopia 3.0.3
+	- cupboard 1.20.1-2.7
+	- dawn 5.0.0
+	   |-- terraform-shapes-api-v1 7.0.1
+	   \-- terraform-wood-api-v1 7.0.1
+	- decorative_blocks 4.0.3
+	- deeperdarker 1.2.6
+	   \-- customportalapi 0.0.1-beta64-1.20
+	- diagonalfences 8.1.4
+	   \-- diagonalblocks 8.0.5
+	- doggomodoverhauled 5.3.1
+	- easyanvils 8.0.2
+	- ecologics 2.2.0
+	- emotecraft 2.2.7-b.build.50
+	   \-- bendy-lib 4.0.0
+	- endermanoverhaul 1.0.4
+	- epherolib 1.2.0
+	- everycomp 1.20-2.6.40
+	- explorerscompass 1.20.1-2.2.3-fabric
+	- explorify 1.6.1
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
+	- fabricloader 0.16.0
+	   \-- mixinextras 0.4.0
+	- fishofthieves 3.0.6
+	- forgeconfigapiport 8.0.0
+	- forgeconfigscreens 8.0.2
+	- framework 0.7.6
+	   \-- org_javassist_javassist 3.29.2-GA
+	- friendsandfoes 2.0.12
+	- fumo 16.0.0
+	- geckolib 4.4.7
+	   \-- com_eliotlash_mclib_mclib 20
+	- geophilic 2.4.3
+	- hamsters fabric-1.0.3-1.20.1
+	- horse_armors 1.0-1.20.1-fabric
+	- hybrid-aquatic 1.3.3
+	   \-- reach-entity-attributes 2.4.0
+	- immersive_paintings 0.6.7+1.20.1
+	- incendium 5.3.5
+	- itemphysic 1.7.1
+	- jade 11.9.2+fabric
+	- jamlib 0.6.1+1.20.x
+	- java 21
+	- jei 15.3.0.8
+	- jeitweaker 8.0.6
+	- journeymap 5.10.0
+	   \-- journeymap-api-fabric 1.20-1.9-fabric-SNAPSHOT
+	- kaffees_dual_ride 1.1.0
+	- kiwi 11.6.2
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lampcrafting 1.0.5
+	- lazydfu 0.1.3
+	- libraryferret 4.0.0
+	- lightingwand 8.1.0+fabric
+	- lithium 0.11.2
+	- lithostitched 1.1.6
+	- lovely_snails 1.1.3+1.20.1
+	- mavapi 1.1.4
+	- mavm 1.2.6
+	- mcwbridges 2.1.0
+	- mcwdoors 1.1.0
+	- mcwfences 1.1.0
+	- mcwfurnitures 3.2.2
+	- mcwlights 1.0.6
+	- mcwpaintings 1.0.5
+	- mcwpaths 1.0.4
+	- mcwroofs 2.3.0
+	- mcwtrpdoors 1.1.2
+	- mcwwindows 2.2.1
+	- medieval_buildings 1.0.1
+	- medievalend 1.0.1
+	- memoryleakfix 1.1.5
+	- mes 1.3.1-1.20-fabric
+	- midnightlib 1.4.1
+	- minecraft 1.20.1
+	- mns 1.0.1-1.20-fabric
+	- modernfix 5.18.1+mc1.20.1
+	- monolib 1.3.0
+	- moonlight 1.20-2.12.6
+	- more-axolotl 2.0.1
+	- more_slabs_stairs_and_walls 4.0.0
+	- moremobs 1.5.1+mod
+	- moremobvariants 1.3.0.1
+	- movingelevators 1.4.7
+	- mr_dungeons_andtaverns 3.0.3.f
+	- mr_dungeons_andtavernsancientcityoverhaul 1
+	- mr_dungeons_andtavernspillageroutpostrework 1.1
+	- mr_dungeons_andtavernsstrongholdrework 1
+	- mr_dungeons_andtavernsswamphutrework 1
+	- mr_katters_structures 1.6
+	- mr_tidal_towns 1.3
+	- mru 0.4.4+1.20.1
+	- naturalist 4.0.3
+	- naturescompass 1.20.1-2.2.3-fabric
+	- netherchested 8.0.3
+	   \-- puzzlesapi 8.1.5
+	        \-- puzzlesaccessapi 8.0.9
+	- netherite_horse_armor 1.20.1-1.0.4
+	- newslabvariants 2.1.0
+	- niftycarts 3.0.2+1.20.1
+	- nullscape 1.2.7
+	- nyfsspiders 2.1.1
+	- pandalib 0.3.1
+	- patchouli 1.20.1-84-FABRIC
+	   \-- fiber 0.23.0-2
+	- player-animator 1.0.2-rc1+1.20
+	- promenade 4.0.0
+	- puzzleslib 8.1.21
+	- repurposed_structures 7.1.15+1.20.1-fabric
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.25
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- restapi 0.9-1.20.1-Fabric
+	- ribbits 1.20.1-Fabric-3.0.0
+	- scout 2.0.4+1.20.1
+	   |-- lib39-core 1.5.0-experimental6.1+1.20.1
+	   \-- lib39-dessicant 1.5.0-experimental6.1+1.20.1
+	- seasons 2.3+1.20
+	- seasonsextras 1.2-BETA+1.20
+	- simplemod 1.20.1
+	- supermartijn642configlib 1.1.8+a
+	- supermartijn642corelib 1.1.17
+	- t_and_t 1.12
+	- tinyskeletons 8.0.1
+	- travelersbackpack fabric-1.20.1-9.1.15
+	   \-- reach-entity-attributes 2.4.0
+	- trimeffects 1.3.2
+	- trimmable_tools 1.0.6
+	- trinkets 3.7.2
+	- tumbleweed 0.5.5
+	- twigs 3.1.0
+	- underground_bunkers 1.0.3
+	- universal_ores 1.5.2
+	- urlmusicdiscs 1.2.0
+	   |-- com_google_code_gson_gson 2.10.1
+	   \-- net_lingala_zip4j_zip4j 2.11.5
+	- uteamcore 5.1.4.312
+	- villagesandpillages 1.0.0
+	- visualoverhaul 5.0.1
+	- wilderwild 2.4.5-Fabric+1.20.1
+	   |-- frozenlib 1.7.4-Fabric+1.20.1
+	   \-- reach-entity-attributes 2.4.0
+	- wildlife 1.19.2-2.2
+	- wirelessredstone 1.20.1-1.1.2
+	- wolf_port 1.0.3-1.20.1
+	- worldedit 7.2.15+6463-5ca4dff
+	- wwoo 2.0.0
+	- yet_another_config_lib_v3 3.5.0+1.20.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yungsapi 1.20-Fabric-4.0.5
+	- yungsbridges 1.20-Fabric-4.0.3
+	- yungsextras 1.20-Fabric-4.0.3
+[06:34:12] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/fabricmebanea2/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[06:34:12] [main/INFO]: Compatibility level set to JAVA_17
+[06:34:13] [main/INFO]: Loading Mixin Plugin for Axiom/3.2.1
+[06:34:13] [main/WARN]: Reference map 'chisels-and-bits-fabric-refmap.json' for chiselsandbits.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'hamsters-refmap.json' for hamsters.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'jeitweaker.refmap.json' for jeitweaker.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'jeitweaker.refmap.json' for jeitweaker.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[06:34:13] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/INFO]: Loaded configuration file for ModernFix 5.18.1+mc1.20.1: 60 options available, 0 override(s) found
+[06:34:13] [main/INFO]: Applying Nashorn fix
+[06:34:13] [main/WARN]: Reference map 'newslabvariants.refmap.json' for fabric-newslabvariants.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'newslabvariants.refmap.json' for fabric-newslabvariants.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'wildlife-refmap.json' for wildlife.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:13] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:34:14] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[06:34:14] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[06:34:14] [main/WARN]: Error loading class: net/minecraft/class_756 (java.lang.ClassNotFoundException: net/minecraft/class_756)
+[06:34:14] [main/WARN]: @Mixin target net.minecraft.class_756 was not found bygonenether.mixins.json:RenderModdedShieldMixin from mod bygonenether
+[06:34:14] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[06:34:14] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
+[06:34:15] [main/WARN]: Force-enabling mixin 'block.hopper.worldedit_compat.WorldChunkMixin' as rule 'mixin.block.hopper.worldedit_compat' (added by mods [lithium-fabric]) enables it
+[06:34:15] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[06:34:15] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
+[06:34:15] [main/WARN]: @Mixin target net.minecraft.class_970 was not found uteamcore.mixins.json:HumanoidArmorLayerMixin from mod uteamcore
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
+[06:34:15] [main/WARN]: @Mixin target net.minecraft.class_634 was not found uteamcore.mixins.json:ClientPacketListenerMixin from mod uteamcore
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[06:34:15] [main/WARN]: @Mixin target net.minecraft.class_310 was not found uteamcore.mixins.json:MinecraftMixin from mod uteamcore
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/class_309 (java.lang.ClassNotFoundException: net/minecraft/class_309)
+[06:34:15] [main/WARN]: @Mixin target net.minecraft.class_309 was not found uteamcore.mixins.json:KeyboardHandlerMixin from mod uteamcore
+[06:34:15] [main/INFO]: Loading config MixinsConfig from wilderwild
+[06:34:15] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:15] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[06:34:15] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[06:34:15] [main/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[06:34:16] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[06:34:16] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[06:34:16] [main/ERROR]: uteamcore.mixins.json:UContainerMenuScreenMixin from mod uteamcore: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Super class 'net.minecraft.class_465' of UContainerMenuScreenMixin was not found in the hierarchy of target class 'info/u_team/u_team_core/screen/UContainerMenuScreen'
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:593) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:327) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:884) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:568) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.0+mixin.0.8.7.jar:0.15.0+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.0.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:160) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[06:34:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[06:34:18] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$dif000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[06:34:19] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06:34:19] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06:34:19] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[06:34:19] [main/INFO]: Loading config BlockConfig from wilderwild
+[06:34:19] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:21] [main/INFO]: Loading config EntityConfig from wilderwild
+[06:34:21] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:22] [main/WARN]: Method overwrite conflict for getLanguage in worldedit-fabric.mixins.json:MixinServerPlayer from mod worldedit, previously written by com.epherical.epherolib.mixin.ServerPlayerMixin. Skipping method.
+[06:34:24] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[06:34:24] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[06:34:24] [main/INFO]: Vanilla bootstrap took 7944 milliseconds
+[06:34:25] [main/INFO]: Reflections took 86 ms to scan 1 urls, producing 3 keys and 34 values
+[06:34:25] [main/INFO]: Initialized chisels-and-bits for Fabric
+[06:34:25] [main/INFO]: Loaded config for: cupboard.json
+[06:34:26] [main/INFO]: [AllTheTrims] Config loaded
+[06:34:26] [main/INFO]: Loaded config amendments-common.json
+[06:34:26] [main/INFO]: [AqUpd's Mobs] Grizzly Bears mod is loaded!
+[06:34:26] [main/INFO]: Initializing Axiom/3.2.1. Build timestamp: 1720427700783
+[06:34:27] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[06:34:27] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[06:34:27] [main/INFO]: Better Archeology says Hello
+[06:34:27] [main/INFO]: [STDOUT]: All 5 have been set properly
+[06:34:27] [main/INFO]: Registering Items from betterarcheology
+[06:34:27] [main/INFO]: Registering Blocks from betterarcheology
+[06:34:27] [main/INFO]: ModEntityTypes of betterarcheology registered.
+[06:34:27] [main/INFO]: Registering Enchantments for betterarcheology
+[06:34:27] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[06:34:27] [main/INFO]: Creating directory for additional Better Nether Fortresses configuration at /workspaces/fabricmebanea2/servidor_minecraft/config/betterfortresses/fabric-1_20
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[06:34:27] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:27] [main/INFO]: Creating directory for additional Better Strongholds configuration at /workspaces/fabricmebanea2/servidor_minecraft/config/betterstrongholds/fabric-1_20
+[06:34:27] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[06:34:27] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[06:34:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[06:34:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[06:34:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[06:34:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[06:34:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[06:34:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[06:34:27] [main/INFO]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[06:34:27] [main/INFO]: Bypassed Mojang DFU
+[06:34:27] [main/INFO]: Instantiating Mojang DFU
+[06:34:28] [main/ERROR]: No data fixer registered for bygonenether:netherite_bell
+[06:34:29] [main/INFO]: Loading Collective version 7.70.
+[06:34:29] [main/INFO]: Initialized entity types.
+[06:34:29] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
+[06:34:31] [main/INFO]: Reflections took 2591 ms to scan 327 urls, producing 13306 keys and 88211 values
+[06:34:33] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on backpacked.common.mixins.json:common.ServerPlayerGameModeMixin from mod backpacked::handler$zkg000$backpacked$OnBlockMined exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[06:34:35] [main/INFO]: Creating default config file: croptopia_v3.conf
+[06:34:36] [main/INFO]: Deserializing DDConfig from './config/deeperdarker.json5'
+[06:34:36] [main/INFO]: Constructing common components for diagonalblocks:main
+[06:34:36] [main/INFO]: Constructing common components for diagonalfences:main
+[06:34:36] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 52ms
+[06:34:36] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 54ms
+[06:34:36] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 133ms
+[06:34:36] [main/INFO]: Constructing common components for easyanvils:main
+[06:34:37] [main/INFO]: Loaded EveryCompat Chipped Module
+[06:34:37] [main/INFO]: Loaded EveryCompat Decorative Blocks Module
+[06:34:37] [main/INFO]: Loaded EveryCompat Friendsandfoes Module
+[06:34:37] [main/INFO]: Loaded EveryCompat Twigs Module
+[06:34:37] [main/INFO]: Registering Particles for frozenlib
+[06:34:37] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[06:34:37] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:37] [main/INFO]: Initializing FumoMod
+[06:34:37] [main/INFO]: [restApi + horse_armors] Creating item registry
+[06:34:37] [main/INFO]: [restApi + horse_armors] Trying to register items
+[06:34:37] [main/INFO]: [restApi + horse_armors] Items registered
+[06:34:37] [main/INFO]: Initializing hybrid-aquatic
+[06:34:37] [main/ERROR]: No data fixer registered for hybrid-aquatic:anemone
+[06:34:37] [main/ERROR]: No data fixer registered for hybrid-aquatic:giant_clam
+[06:34:37] [main/ERROR]: No data fixer registered for hybrid-aquatic:message_in_a_bottle
+[06:34:37] [main/ERROR]: No data fixer registered for hybrid-aquatic:buoy
+[06:34:37] [main/ERROR]: No data fixer registered for hybrid-aquatic:tube_sponge
+[06:34:37] [ForkJoinPool.commonPool-worker-1/INFO]: [Friends&Foes] An update is available! You are using 2.0.12 version, but the latest version is 2.0.15.
+[06:34:37] [main/INFO]: [jamlib] Mod initialized!
+[06:34:37] [main/INFO]: Initializing ServerSide Packet Registries
+[06:34:37] [main/INFO]: Processing 3 KiwiModule annotations
+[06:34:38] [main/INFO]: Module [kiwi:contributors] initialized
+[06:34:38] [main/INFO]: Module [lightingwand:core] initialized
+[06:34:38] [main/INFO]: 		block: 2, item: 1, recipe_serializer: 1, block_entity_type: 1, entity_type: 1
+[06:34:38] [main/INFO]: Module [kiwi:data] initialized
+[06:34:38] [main/INFO]: 		recipe_serializer: 3
+[06:34:38] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[06:34:38] [main/INFO]: Initializing LampcraftingMod
+[06:34:38] [main/INFO]: Initialize mod Library Ferret
+[06:34:38] [main/INFO]: Initialized mod Library Ferret
+[06:34:40] [main/INFO]: Definitely not up to no good
+[06:34:40] [main/INFO]: Hello Fabric world!
+[06:34:40] [main/INFO]: Hello from Common init on Fabric! we are currently in a production environment!
+[06:34:40] [main/INFO]: The ID for diamonds is minecraft:diamond
+[06:34:40] [main/INFO]: Hello to monolib
+[06:34:43] [main/INFO]: [More Mobs] MidnightLib detected!
+[06:34:43] [main/INFO]: [More Mobs] Registering server started event...
+[06:34:43] [main/INFO]: [More Mobs] Loaded More Mobs by Tschipcraft successfully!
+[06:34:43] [main/INFO]: Giving mobs a fresh coat of paint...
+[06:34:43] [main/INFO]: Constructing common components for netherchested:main
+[06:34:43] [main/INFO]: Hello Fabric world!
+[06:34:43] [main/INFO]: Hello from NewSlabVariants Common init on Fabric! we are currently in a production environment!
+[06:34:43] [main/INFO]: The ID for diamonds is minecraft:diamond
+[06:34:43] [main/INFO]: Hello to NewSlabVariants
+[06:34:43] [main/INFO]: Registering ModBlocks for newslabvariants
+[06:34:43] [main/INFO]: Registering C2S receiver with id pandalib:config_sync
+[06:34:43] [main/ERROR]: Failed to load book seasonsextras:seasonal_compendium defined by mod seasonsextras, skipping
+java.lang.IllegalArgumentException: Book seasonsextras:seasonal_compendium has use_resource_pack set to false. This behaviour was removed in 1.20. The book author should enable this flag and move all book contents clientside to /assets/, leaving the book.json in /data/. See https://vazkiimods.github.io/Patchouli/docs/upgrading/upgrade-guide-120 for details.
+	at vazkii.patchouli.common.book.Book.<init>(Book.java:145) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.BookRegistry.loadBook(BookRegistry.java:90) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.common.book.BookRegistry.lambda$init$3(BookRegistry.java:75) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at vazkii.patchouli.common.book.BookRegistry.init(BookRegistry.java:70) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at vazkii.patchouli.fabric.common.FabricModInitializer.onInitialize(FabricModInitializer.java:33) ~[Patchouli-1.20.1-84-FABRIC.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) ~[fabric-loader-0.16.0.jar:?]
+	at net.minecraft.server.Main.main(Main.java:112) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[06:34:43] [main/INFO]: Constructing common components for puzzlesapi:iteminteractions
+[06:34:43] [main/INFO]: Constructing common components for puzzlesapi:slotcycling
+[06:34:43] [main/INFO]: Constructing common components for puzzlesapi:limitlesscontainers
+[06:34:43] [main/INFO]: Constructing common components for puzzlesapi:statues
+[06:34:43] [main/INFO]: Constructing common components for puzzleslib:main
+[06:34:43] [main/INFO]: [restApi] Api starting.
+[06:34:43] [main/INFO]: [restApi + restapi] Creating item registry
+[06:34:43] [main/INFO]: [restApi + restapi] Creating block registry
+[06:34:43] [main/INFO]: [restApi + restapi] Creating creative tab registry
+[06:34:43] [main/INFO]: [restApi + restapi] Creating sound events registry
+[06:34:43] [main/INFO]: [restApi] Default registries created
+[06:34:43] [main/INFO]: [restApi] Loading API without testing classes
+[06:34:43] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 6 keys and 36 values
+[06:34:43] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 6 keys and 36 values
+[06:34:43] [main/INFO]: Registering Ribbit instruments...
+[06:34:43] [main/INFO]: Registering Ribbit umbrella types...
+[06:34:43] [main/INFO]: Registering Ribbit professions...
+[06:34:43] [main/INFO]: Registering Ribbit data serializers...
+[06:34:43] [main/INFO]: Initialized Saecularia-Caudices
+[06:34:43] [main/INFO]: Loaded block entity configuration.
+[06:34:43] [main/INFO]: Loaded block configuration.
+[06:34:43] [main/INFO]: Loaded chisel mode group configuration.
+[06:34:44] [main/INFO]: Loaded chisel mode configuration.
+[06:34:44] [main/INFO]: Loaded container type configuration.
+[06:34:44] [main/INFO]: Loaded item group configuration.
+[06:34:44] [main/INFO]: Loaded item configuration.
+[06:34:44] [main/INFO]: Loaded metadata key configuration.
+[06:34:44] [main/INFO]: Loaded model property configuration.
+[06:34:44] [main/INFO]: Loaded modification operation configuration.
+[06:34:44] [main/INFO]: Loaded modification operation group configuration.
+[06:34:44] [main/INFO]: Loaded pattern placement type configuration.
+[06:34:44] [main/INFO]: Loaded recipe serializer configuration.
+[06:34:44] [main/INFO]: Loaded tag configuration.
+[06:34:44] [main/INFO]: Registering recipe types.
+[06:34:44] [main/INFO]: Registering event handlers
+[06:34:49] [main/INFO]: Initialized scena-fabric
+[06:34:49] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[06:34:49] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[06:34:49] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[06:34:49] [main/INFO]: Hello Fabric world!
+[06:34:49] [main/INFO]: Constructing common components for tinyskeletons:main
+[06:34:49] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[06:34:49] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[06:34:49] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[06:34:49] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[06:34:49] [main/INFO]: Hello Fabric world!
+[06:34:49] [Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_fabric.json
+[06:34:49] [main/INFO]: Started measuring WilderWild
+[06:34:49] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 2
+[06:34:49] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
+[06:34:49] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 18
+[06:34:49] [main/INFO]: DataFixes for Wilder Wild have been applied
+[06:34:49] [Version Check/INFO]: [uteamcore] Found status: UP_TO_DATE Current: 5.1.4.312 Target: null
+[06:34:49] [main/INFO]: Loading config AmbienceAndMiscConfig from wilderwild
+[06:34:49] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:49] [main/INFO]: Adding Music And Ambience To Biomes for wilderwild
+[06:34:49] [main/INFO]: Overriding Water Colors for wilderwild
+[06:34:49] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
+[06:34:49] [main/INFO]: WilderWild took 375793712 nanoseconds
+[06:34:50] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@33f00f90]
+[06:34:50] [main/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[06:34:50] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[06:34:50] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 4 values
+[06:34:50] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:50] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:50] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:50] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[06:34:50] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[06:34:50] [main/INFO]: Initialized block sets in 52ms
+[06:34:51] [main/INFO]: Loaded config everycomp-common.json
+[06:34:51] [main/INFO]: Registering Compat Wood Blocks
+[06:34:53] [main/INFO]: Registering Compat Leaves Blocks
+[06:34:53] [main/WARN]: Chipped is installed. The mod on its own adds a ludicrous amount of blocks. With Every Compat this can easily explode. You have been warned
+[06:34:53] [main/INFO]: Registered 3619 compat blocks making up 20.63% of total blocks registered
+[06:34:53] [main/INFO]: Initialized color sets in 105ms
+[06:34:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:34:55] [main/INFO]: Generated runtime SERVER_DATA for pack Everycomp Generated Pack (everycomp) in: 1094 ms
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:55] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:55] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:57] [main/INFO]: Loading config WorldgenConfig from wilderwild
+[06:34:57] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config MixinsConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config BlockConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config EntityConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:34:58] [main/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:34:58] [main/INFO]: Saving config WorldgenConfig from wilderwild
+[06:34:58] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[06:34:59] [Worker-Main-1/ERROR]: Couldn't load tag frozenlib:dont_emit_use_game_events as it is missing following references: deeperdarker:transmitter (from fabric)
+[06:34:59] [Worker-Main-1/ERROR]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[06:35:00] [Worker-Main-1/ERROR]: Error while parsing loot table decoration entry. Found jungle_temple. Defaulting to MANSION
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[5]: Unknown loot table called automaticons:nether_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[2]: Unknown loot table called automaticons:food_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/jungle/disco}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/sky/temple}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[4]: Unknown loot table called automaticons:mob_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[8]: Unknown loot table called automaticons:stone_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/mountain}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/desert}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[6]: Unknown loot table called automaticons:ocean_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/villager/ocean}.pools[2].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[1]: Unknown loot table called automaticons:flower_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/underground/treasures}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[7]: Unknown loot table called automaticons:ore_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:automaticons/all_automaticons}.pools[0].entries[3]: Unknown loot table called automaticons:misc_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/pagode}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/ocean/lighthouse}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[9]: Unknown loot table called automaticons:wood_automaticons
+[06:35:00] [main/WARN]: Found loot table element validation problem in {loot_tables:kattersstructures:chests/swamp/big_stem}.pools[1].entries[0]->{kattersstructures:automaticons/all_automaticons}.pools[0].entries[0]: Unknown loot table called automaticons:dirt_automaticons
+[06:35:00] [main/INFO]: Successfully modified loot table: 'minecraft:chests/bastion_treasure'
+[06:35:01] [main/INFO]: Loaded 30 recipes
+[06:35:01] [main/ERROR]: Parsing error loading custom advancement naturescompass:natures_compass: Expected items to be a JsonArray, was "min...ss"
+[06:35:01] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass: Expected items to be a JsonArray, was "min...ss"
+[06:35:01] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cobweb: Expected items to be a JsonArray, was "min...eb"
+[06:35:01] [main/ERROR]: Parsing error loading custom advancement explorerscompass:explorers_compass_cracked_stone_bricks: Expected items to be a JsonArray, was "min...ks"
+[06:35:01] [main/INFO]: Loaded 8750 advancements
+[06:35:01] [main/INFO]: Reloading config...
+[06:35:02] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[06:35:02] [main/INFO]: Applied 5685 biome modifications to 111 of 111 new biomes in 243.6 ms
+[06:35:02] [Server thread/INFO]: Loading server config for easyanvils
+[06:35:02] [Thread-4/INFO]: Reloading server config for easyanvils
+[06:35:02] [Server thread/INFO]: Loading server config for netherchested
+[06:35:02] [Thread-4/INFO]: Reloading server config for easyanvils
+[06:35:02] [Server thread/INFO]: Loading server config for puzzlesapi
+[06:35:02] [Server thread/INFO]: Loading server configs...
+[06:35:02] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[06:35:02] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[06:35:02] [Server thread/INFO]: Saving config MixinsConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config BlockConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config EntityConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:35:02] [Server thread/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config WorldgenConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config MixinsConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config BlockConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config EntityConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:35:02] [Server thread/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config WorldgenConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config MixinsConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config BlockConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config EntityConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config FrozenLibConfig from frozenlib
+[06:35:02] [Server thread/INFO]: Saving config AmbienceAndMiscConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Saving config WorldgenConfig from wilderwild
+[06:35:02] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[06:35:02] [Server thread/INFO]: Loading properties
+[06:35:02] [Server thread/INFO]: Default game type: SURVIVAL
+[06:35:02] [Server thread/INFO]: Generating keypair
+[06:35:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:35:02] [Server thread/INFO]: Using epoll channel type
+[06:35:03] [Server thread/INFO]: Preparing level "world"
+[06:35:03] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[06:35:03] [Server thread/INFO]: Wilder Wild's No Preliminary Surface Overworld Surface Rules have been added!
+[06:35:03] [Server thread/INFO]: skipping unknown option 'enabledtrueupdate-order' in Alternate Current config
+[06:35:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:35:03] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[06:35:05] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:05] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:05] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:05] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:05] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:06] [Server thread/INFO]: Preparing spawn area: 0%
+[06:35:07] [Server thread/INFO]: Time elapsed: 3689 ms
+[06:35:07] [Server thread/INFO]: Done (4.125s)! For help, type "help"
+[06:35:07] [Server thread/WARN]: Dedicated server took 61.28 seconds to load
+[06:35:07] [Server thread/INFO]: Start loading plugin from Jade
+[06:35:07] [Server thread/INFO]: Start loading plugin from Jade
+[06:35:07] [Server thread/INFO]: Start loading plugin from Jade
+[06:35:07] [Server thread/INFO]: [More Mobs] Sending global config to server...
+[06:38:57] [User Authenticator #1/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[06:38:57] [Server thread/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[06:38:57] [Server thread/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[06:38:58] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:63869] logged in with entity id 97 at (-569.2848374750589, 77.53292827534491, 267.5591236454475)
+[06:38:58] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[06:38:58] [Server thread/INFO]: Loading config from file...
+[06:38:58] [Server thread/INFO]: Fr4nko7k joined the game
+[06:41:33] [Server thread/INFO]: Villager class_1646['Farmer'/61, l='ServerLevel[world]', x=-518.74, y=76.00, z=321.78] died, message: 'Farmer was slain by Zombie'
+[06:41:49] [Server thread/INFO]: Villager class_1646['Farmer'/89, l='ServerLevel[world]', x=-541.78, y=77.00, z=337.99] died, message: 'Farmer was slain by Husk'
+[06:42:56] [Server thread/INFO]: Loading config ItemConfig from wilderwild
+[06:42:56] [Server thread/INFO]: Saving config ItemConfig from wilderwild
+[06:43:41] [Server thread/INFO]: Villager class_1646['Cartographer'/238, l='ServerLevel[world]', x=-581.91, y=78.32, z=384.30] died, message: 'Cartographer was slain by Zombie'
+[06:52:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2246ms or 44 ticks behind
+[07:03:42] [Server thread/INFO]: Villager class_1646['Unemployed'/72, l='ServerLevel[world]', x=-484.77, y=71.00, z=324.75] died, message: 'Unemployed was slain by Husk'
+[07:05:47] [Server thread/INFO]: Fr4nko7k has made the advancement [Best Friends Forever]
+[07:15:09] [Server thread/INFO]: Fr4nko7k has made the advancement [The Parrots and the Bats]
+[07:16:06] [Server thread/INFO]: [Fr4nko7k: Set own game mode to Spectator Mode]
+[07:16:35] [Server thread/INFO]: [Fr4nko7k: Set own game mode to Creative Mode]
+[07:19:41] [Server thread/INFO]: Saving config ItemConfig from wilderwild
+[07:20:10] [Worker-Main-10/WARN]: Empty height range: [-55 absolute--60 absolute]
+[07:20:10] [Worker-Main-10/WARN]: Empty height range: [-55 absolute--60 absolute]
+[07:20:10] [Worker-Main-10/WARN]: Empty height range: [-55 absolute--60 absolute]
+[07:22:00] [Server thread/INFO]: [Not Secure] [Server] sexo
+[07:22:18] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[07:22:18] [Server thread/INFO]: Fr4nko7k left the game
+[07:22:27] [Server thread/INFO]: Stopping the server
+[07:22:27] [Server thread/INFO]: Stopping server
+[07:22:27] [Server thread/INFO]: Saving players
+[07:22:27] [Server thread/INFO]: Saving worlds
+[07:22:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:22:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[07:22:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:22:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[07:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:22:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:22:38] [Server thread/INFO]: Unloading server configs...
+[07:22:38] [Server thread/INFO]: Sending config unload event for backpacked.server.toml
