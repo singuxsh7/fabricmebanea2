@@ -1711,3 +1711,61 @@ BCLib - Nether BiomeSource (d3511fc)
 [02:28:40] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
 [02:29:02] [Server thread/INFO]: Fr4nko7k lost connection: Timed out
 [02:29:02] [Server thread/INFO]: Fr4nko7k left the game
+[02:29:14] [User Authenticator #2/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[02:29:15] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:51275] logged in with entity id 451 at (-550.0749999880791, 84.38347373790323, 330.92500001192093)
+[02:29:15] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[02:29:15] [Server thread/INFO]: Loading config from file...
+[02:29:15] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[02:29:15] [Server thread/INFO]: Fr4nko7k joined the game
+[02:29:18] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[02:29:18] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[02:29:18] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[02:29:18] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[02:29:18] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
+[02:29:22] [Server thread/INFO]: Villager class_1646['Nitwit'/506, l='ServerLevel[world]', x=-492.30, y=63.50, z=372.30] died, message: 'Nitwit was slain by Husk'
+[02:29:51] [Netty Epoll Server IO #3/INFO]: [bclib] Client requested 2 Files:
+[02:29:51] [Netty Epoll Server IO #3/INFO]: [bclib] 	- bclib.CONFIG_betternether.items
+[02:29:51] [Netty Epoll Server IO #3/INFO]: [bclib] 	- bclib.CONFIG_betternether.biomes
+[02:29:51] [Server thread/INFO]: [bclib] Sending 2 Files to Client:
+[02:29:51] [Server thread/INFO]: [bclib] 	- bclib.CONFIG_betternether.items (4.1 KiB)
+[02:29:51] [Server thread/INFO]: [bclib] 	- bclib.CONFIG_betternether.biomes (9.2 KiB)
+[02:29:53] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[02:29:53] [Server thread/INFO]: Fr4nko7k left the game
+[02:36:16] [User Authenticator #3/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[02:36:17] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:51614] logged in with entity id 792 at (-550.0749999880791, 84.38347373790323, 330.92500001192093)
+[02:36:17] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[02:36:17] [Server thread/INFO]: Loading config from file...
+[02:36:17] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[02:36:17] [Server thread/INFO]: Fr4nko7k joined the game
+[02:36:23] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[02:36:23] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[02:36:23] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[02:36:23] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[02:36:23] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
+[02:37:20] [Server thread/INFO]: Villager class_1646['Unemployed'/215, l='ServerLevel[world]', x=-489.19, y=65.00, z=388.79] died, message: 'Unemployed was slain by Husk'
