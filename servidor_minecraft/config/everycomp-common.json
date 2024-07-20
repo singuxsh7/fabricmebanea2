@@ -12,6 +12,7 @@
       "show_on_advanced_tooltips": false
     },
     "types": {
+      "cake": {},
       "wood_type": {
         "ecologics.flowering_azalea": true,
         "ecologics.azalea": true,
@@ -43,6 +44,7 @@
         "promenade.maple": true,
         "promenade.palm": true,
         "promenade.dark_amaranth": true,
+        "spawn.rotten": true,
         "wilderwild.baobab": true,
         "wilderwild.cypress": true,
         "wilderwild.palm": true
@@ -135,8 +137,7 @@
         "promenade.snowy_spruce": true,
         "wilderwild.baobab": true,
         "wilderwild.cypress": true
-      },
-      "cake": {}
+      }
     },
     "entries": {
       "wood_type": {
