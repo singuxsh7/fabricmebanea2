@@ -1913,3 +1913,38 @@ BCLib - Nether BiomeSource (2a65d7ed)
 [07:49:18] [Server thread/INFO]: Start loading plugin from Supplementaries
 [07:49:18] [Server thread/INFO]: [More Mobs] Sending global config to server...
 [07:49:18] [Server thread/INFO]: Loaded 0 items attribute modifier(s)
+[08:15:41] [User Authenticator #1/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[08:15:41] [Server thread/WARN]: Error loading class: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk (java.lang.ClassNotFoundException: net/minecraft/unmapped/C_mxrobsgg$C_wdomexrk)
+[08:15:41] [Server thread/WARN]: Error loading class: net/minecraft/server/network/ServerPlayerEntity$2 (java.lang.ClassNotFoundException: net/minecraft/server/network/ServerPlayerEntity$2)
+[08:15:42] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:56876] logged in with entity id 203 at (1666.4822389152544, 69.0, 400.03193792068487)
+[08:15:42] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[08:15:42] [Server thread/INFO]: Loading config from file...
+[08:15:42] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[08:15:42] [Server thread/INFO]: Fr4nko7k joined the game
+[08:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2353ms or 47 ticks behind
+[08:15:51] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[08:15:51] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[08:15:51] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[08:15:51] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[08:15:51] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
+[08:16:00] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/605, l='ServerLevel[world]', x=1714.50, y=69.00, z=497.50]
+[08:16:38] [Worker-Main-4/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[08:16:38] [Worker-Main-4/INFO]: Wilder Wild's No Preliminary Surface Overworld Surface Rules have been added!
+[08:16:48] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/812, l='ServerLevel[world]', x=1702.50, y=72.00, z=462.50]
+[08:16:48] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/813, l='ServerLevel[world]', x=1702.50, y=70.00, z=475.50]
+[08:17:26] [Server thread/INFO]: <Fr4nko7k> sexop
+[08:17:28] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[08:17:28] [Server thread/INFO]: Fr4nko7k left the game
