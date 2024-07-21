@@ -3133,3 +3133,29 @@ java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a dif
 [08:44:45] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/4586, l='ServerLevel[world]', x=1727.50, y=69.00, z=522.50]
 [08:45:08] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
 [08:45:08] [Server thread/INFO]: Fr4nko7k left the game
+[08:51:14] [User Authenticator #5/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[08:51:15] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:58219] logged in with entity id 4777 at (1651.8912857947162, 67.0, 398.09690996642576)
+[08:51:15] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[08:51:15] [Server thread/INFO]: Loading config from file...
+[08:51:15] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[08:51:15] [Server thread/INFO]: Fr4nko7k joined the game
+[08:51:22] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[08:51:22] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[08:51:22] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[08:51:22] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[08:51:22] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
+[08:52:12] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[08:52:12] [Server thread/INFO]: Fr4nko7k left the game
