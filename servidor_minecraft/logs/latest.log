@@ -1948,3 +1948,34 @@ BCLib - Nether BiomeSource (2a65d7ed)
 [08:17:26] [Server thread/INFO]: <Fr4nko7k> sexop
 [08:17:28] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
 [08:17:28] [Server thread/INFO]: Fr4nko7k left the game
+[08:26:24] [User Authenticator #2/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[08:26:25] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:57273] logged in with entity id 1006 at (1661.5066391719145, 68.0, 406.77072919149816)
+[08:26:25] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[08:26:25] [Server thread/INFO]: Loading config from file...
+[08:26:25] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[08:26:25] [Server thread/INFO]: Fr4nko7k joined the game
+[08:26:31] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[08:26:31] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[08:26:31] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[08:26:31] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[08:26:31] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
+[08:27:15] [Worker-Main-9/WARN]: Empty height range: [-55 absolute--60 absolute]
+[08:27:15] [Worker-Main-9/WARN]: Empty height range: [-55 absolute--60 absolute]
+[08:27:15] [Worker-Main-9/WARN]: Empty height range: [-55 absolute--60 absolute]
+[08:27:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3156ms or 63 ticks behind
+[08:27:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[08:28:06] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[08:28:06] [Server thread/INFO]: Fr4nko7k left the game
