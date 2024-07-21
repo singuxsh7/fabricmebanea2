@@ -1,10 +1,4 @@
 {
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
   "fumo:fumo_advancement": {
     "criteria": {
       "fumo_advancement": "2024-07-21 04:59:33 +0000"
@@ -17,53 +11,17 @@
     },
     "done": true
   },
-  "betternether:root": {
-    "criteria": {
-      "welcome": "2024-07-21 04:59:35 +0000"
-    },
-    "done": true
-  },
-  "betterend:root": {
-    "criteria": {
-      "welcome": "2024-07-21 04:59:35 +0000"
-    },
-    "done": true
-  },
   "betterdungeons:root": {
     "criteria": {
       "always": "2024-07-21 04:59:33 +0000"
     },
     "done": true
   },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
   "betterdeserttemples:root": {
     "criteria": {
       "always": "2024-07-21 04:59:33 +0000"
     },
     "done": true
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
   },
   "the_bumblezone:root": {
     "criteria": {
@@ -76,42 +34,6 @@
       "fumo_tutorial_base_advancement": "2024-07-21 04:59:33 +0000"
     },
     "done": true
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/using/ragnarok": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:35 +0000"
-    },
-    "done": false
   },
   "repurposed_structures:root": {
     "criteria": {
@@ -131,21 +53,33 @@
     },
     "done": true
   },
-  "incendium:technical/using/shield": {
+  "the_bumblezone:wiki": {
+    "criteria": {
+      "instant_granted": "2024-07-21 04:59:33 +0000"
+    },
+    "done": true
+  },
+  "betternether:root": {
+    "criteria": {
+      "welcome": "2024-07-21 04:59:35 +0000"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2024-07-21 04:59:35 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/using/ragnarok": {
     "criteria": {
       "log_spam_fixer": "2024-07-21 04:59:35 +0000"
     },
     "done": false
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "incendium:technical/using/shield": {
     "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 04:59:54 +0000"
+      "log_spam_fixer": "2024-07-21 04:59:35 +0000"
     },
     "done": false
   },
@@ -155,15 +89,15 @@
     },
     "done": false
   },
-  "the_bumblezone:wiki": {
-    "criteria": {
-      "instant_granted": "2024-07-21 04:59:33 +0000"
-    },
-    "done": true
-  },
   "incendium:technical/using/trailblazer": {
     "criteria": {
       "log_spam_fixer": "2024-07-21 04:59:35 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2024-07-21 05:08:26 +0000"
     },
     "done": false
   },
