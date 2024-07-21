@@ -520,78 +520,6 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-21 06:13:32 +0000"
-    },
-    "done": false
-  },
   "betternether:recipes/building_blocks/wart_slab": {
     "criteria": {
       "has_wart_planks": "2024-07-21 06:07:01 +0000",
@@ -9628,6 +9556,48 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:01 +0000",
       "has_umbrella_tree_stripped_bark": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_ocelot_fossil_from_body": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_crimson": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:01 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/crimson_table": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_warped": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_jungle": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:01 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_acacia": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:01 +0000"
     },
     "done": true
   },
@@ -22039,6 +22009,63 @@
     },
     "done": true
   },
+  "croptopia:recipes/veggie_salad": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
+  "more_slabs_stairs_and_walls:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_dark_oak": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/lamps_ceilings": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/blinds": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:the_queens_desire/journeys_end": {
+    "criteria": {
+      "target_advancement_done_4": "2024-07-21 06:07:04 +0000",
+      "target_advancement_done_5": "2024-07-21 06:07:04 +0000",
+      "target_advancement_done_6": "2024-07-21 06:07:05 +0000",
+      "target_advancement_done_7": "2024-07-21 06:07:02 +0000",
+      "target_advancement_done_1": "2024-07-21 06:07:04 +0000",
+      "target_advancement_done_2": "2024-07-21 06:07:05 +0000",
+      "target_advancement_done_3": "2024-07-21 06:07:05 +0000",
+      "target_advancement_done_16": "2024-07-21 06:07:04 +0000",
+      "target_advancement_done_15": "2024-07-21 06:07:05 +0000",
+      "target_advancement_done_8": "2024-07-21 06:07:04 +0000",
+      "target_advancement_done_12": "2024-07-21 06:07:03 +0000",
+      "target_advancement_done_9": "2024-07-21 06:07:03 +0000",
+      "target_advancement_done_11": "2024-07-21 06:07:04 +0000",
+      "target_advancement_done_14": "2024-07-21 06:07:02 +0000",
+      "target_advancement_done_13": "2024-07-21 06:07:02 +0000",
+      "target_advancement_done_10": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/cut_limestone_stairs": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:02 +0000"
+    },
+    "done": true
+  },
   "more_slabs_stairs_and_walls:recipes/building_blocks/slime_block_wall_from_slime_block_stonecutting": {
     "criteria": {
       "has_slime_block": "2024-07-21 06:07:03 +0000",
@@ -22092,12 +22119,6 @@
     "criteria": {
       "has_prismarine": "2024-07-21 06:07:03 +0000",
       "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/recipe_ocelot_fossil_from_body": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:01 +0000"
     },
     "done": true
   },
@@ -32251,12 +32272,6 @@
     },
     "done": true
   },
-  "supplementaries:recipes/sign_post_crimson": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:01 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcfur/betterend/stripped_tenanea_double_drawer_counter": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:03 +0000",
@@ -36843,12 +36858,6 @@
     },
     "done": true
   },
-  "croptopia:recipes/veggie_salad": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:02 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcfur/betterend/stripped_helix_tree_wardrobe": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:03 +0000",
@@ -37568,6 +37577,108 @@
     },
     "done": true
   },
+  "croptopia:recipes/stuffed_poblanos": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/andesite": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_guardian_fossil_from_body": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/diorite": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/oak": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_cherry": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_villager_fossil_from_body": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/granite": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/warped": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/birch": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_chicken_fossil_from_head": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/stone": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/crimson": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/blackstone": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "more_slabs_stairs_and_walls:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/acacia": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:03 +0000"
+    },
+    "done": true
+  },
   "everycomp:recipes/decorations/mcf/chipped/golden_apple_birch_hedge": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:04 +0000",
@@ -37579,12 +37690,6 @@
     "criteria": {
       "has_blackstone": "2024-07-21 06:07:04 +0000",
       "has_the_recipe": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/stuffed_poblanos": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -38707,12 +38812,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:04 +0000",
       "has_planks": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
-  "more_slabs_stairs_and_walls:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:02 +0000"
     },
     "done": true
   },
@@ -42721,12 +42820,6 @@
     },
     "done": true
   },
-  "twigs:recipes/tables/crimson_table": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:01 +0000"
-    },
-    "done": true
-  },
   "twigs:recipes/silt/light_gray_silt_shingle_stairs": {
     "criteria": {
       "has_item": "2024-07-21 06:07:04 +0000",
@@ -43574,12 +43667,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:04 +0000",
       "has_planks": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/andesite": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -47225,12 +47312,6 @@
     },
     "done": true
   },
-  "betterarcheology:recipes/recipe_guardian_fossil_from_body": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-07-21 06:07:04 +0000",
@@ -49460,12 +49541,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:04 +0000",
       "has_light_blue_stained_glass": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/diorite": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -51993,12 +52068,6 @@
     },
     "done": true
   },
-  "supplementaries:recipes/decorations/sign_post_dark_oak": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:04 +0000",
@@ -53140,12 +53209,6 @@
     "criteria": {
       "has_tortilla": "2024-07-21 06:07:04 +0000",
       "has_the_recipe": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
-  "mcwlights:recipes/lamps_ceilings": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:02 +0000"
     },
     "done": true
   },
@@ -58466,6 +58529,78 @@
     },
     "done": true
   },
+  "fishofthieves:recipes/decorations/golden_frame_jungle_fish_plaque": {
+    "criteria": {
+      "has_jungle_fish_plaque": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_creeper_fossil_from_head": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "fishofthieves:recipes/decorations/iron_frame_dark_oak_fish_plaque": {
+    "criteria": {
+      "has_dark_oak_fish_plaque": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/beef_jerky": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "fishofthieves:recipes/decorations/iron_frame_mangrove_fish_plaque": {
+    "criteria": {
+      "has_mangrove_fish_plaque": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/pork_jerky": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "fishofthieves:recipes/decorations/gilded_jungle_fish_plaque": {
+    "criteria": {
+      "has_jungle_fish_plaque": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "more_slabs_stairs_and_walls:recipes.building_blocks/snow_block_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_mangrove": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "fishofthieves:recipes/decorations/golden_frame_mangrove_fish_plaque": {
+    "criteria": {
+      "has_mangrove_fish_plaque": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
+  "fishofthieves:recipes/decorations/gilded_mangrove_fish_plaque": {
+    "criteria": {
+      "has_mangrove_fish_plaque": "2024-07-21 06:07:04 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/decorations/mushroom_fir_taburet": {
     "criteria": {
       "has_mushroom_fir_slab": "2024-07-21 06:07:05 +0000",
@@ -59268,12 +59403,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_planks": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "fishofthieves:recipes/decorations/golden_frame_jungle_fish_plaque": {
-    "criteria": {
-      "has_jungle_fish_plaque": "2024-07-21 06:07:04 +0000"
     },
     "done": true
   },
@@ -61694,12 +61823,6 @@
     },
     "done": true
   },
-  "betterarcheology:recipes/recipe_creeper_fossil_from_head": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
   "wilderwild:recipes/building_blocks/birch_planks_from_hollowed": {
     "criteria": {
       "has_log": "2024-07-21 06:07:05 +0000",
@@ -61914,12 +62037,6 @@
     },
     "done": true
   },
-  "mcwwindows:recipes/oak": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/netherrack_brick_wall_from_netherrack_stonecutting": {
     "criteria": {
       "has_netherrack": "2024-07-21 06:07:05 +0000",
@@ -62010,12 +62127,6 @@
     "criteria": {
       "has_snow_bricks": "2024-07-21 06:07:05 +0000",
       "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/sign_post_cherry": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -63837,12 +63948,6 @@
     },
     "done": true
   },
-  "supplementaries:recipes/decorations/sign_post_warped": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lime_candle": {
     "criteria": {
       "has_lime_dye": "2024-07-21 06:07:05 +0000",
@@ -63960,12 +64065,6 @@
     "criteria": {
       "has_smooth_basalt": "2024-07-21 06:07:05 +0000",
       "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sponge": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:01 +0000"
     },
     "done": true
   },
@@ -64375,12 +64474,6 @@
     },
     "done": true
   },
-  "supplementaries:recipes/decorations/sign_post_jungle": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:01 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcfur/betterend/end_lotus_double_drawer": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
@@ -64657,12 +64750,6 @@
     },
     "done": true
   },
-  "betterarcheology:recipes/recipe_villager_fossil_from_body": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcfur/betterend/dragon_tree_striped_chair": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
@@ -64701,12 +64788,6 @@
     "criteria": {
       "has_block.betternether.blue_obsidian_bricks": "2024-07-21 06:07:05 +0000",
       "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -66009,12 +66090,6 @@
     },
     "done": true
   },
-  "fishofthieves:recipes/decorations/iron_frame_dark_oak_fish_plaque": {
-    "criteria": {
-      "has_dark_oak_fish_plaque": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcf/betternether/willow_horse_fence": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
@@ -66718,12 +66793,6 @@
     "criteria": {
       "has_deepslate": "2024-07-21 06:07:05 +0000",
       "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/sign_post_acacia": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:01 +0000"
     },
     "done": true
   },
@@ -67485,12 +67554,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_planks": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/granite": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -73523,12 +73586,6 @@
     },
     "done": true
   },
-  "mcwwindows:recipes/warped": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
   "more_slabs_stairs_and_walls:recipes/building_blocks/cherry_planks_wall": {
     "criteria": {
       "has_cherry_planks_wall": "2024-07-21 06:07:05 +0000",
@@ -73874,12 +73931,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_planks": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/beef_jerky": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:04 +0000"
     },
     "done": true
   },
@@ -74701,12 +74752,6 @@
     "criteria": {
       "has_end_stone": "2024-07-21 06:07:05 +0000",
       "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/blinds": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:02 +0000"
     },
     "done": true
   },
@@ -76177,12 +76222,6 @@
     },
     "done": true
   },
-  "fishofthieves:recipes/decorations/iron_frame_mangrove_fish_plaque": {
-    "criteria": {
-      "has_mangrove_fish_plaque": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/polished_purpur_from_purpur_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
@@ -77442,12 +77481,6 @@
     },
     "done": true
   },
-  "croptopia:recipes/food/pork_jerky": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
   "spawn:recipes/snail/snail_shell_tiles": {
     "criteria": {
       "has_item": "2024-07-21 06:07:05 +0000",
@@ -77788,12 +77821,6 @@
       "has_hay_block": "2024-07-21 06:07:05 +0000",
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_flax_block": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/birch": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -78641,12 +78668,6 @@
     },
     "done": true
   },
-  "betterarcheology:recipes/recipe_chicken_fossil_from_head": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/thallasium_ingot_from_block": {
     "criteria": {
       "has_thallasium_block": "2024-07-21 06:07:05 +0000",
@@ -79157,12 +79178,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_raw_shrimp": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "fishofthieves:recipes/decorations/gilded_jungle_fish_plaque": {
-    "criteria": {
-      "has_jungle_fish_plaque": "2024-07-21 06:07:04 +0000"
     },
     "done": true
   },
@@ -80628,12 +80643,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_planks": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "naturescompass:natures_compass_log": {
-    "criteria": {
-      "has_recipe": "2024-07-21 06:07:04 +0000"
     },
     "done": true
   },
@@ -82350,12 +82359,6 @@
     },
     "done": true
   },
-  "more_slabs_stairs_and_walls:recipes.building_blocks/snow_block_slab": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcfur/ecologics/stripped_flowering_azalea_double_drawer_counter": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
@@ -82588,12 +82591,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_planks": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/sign_post_mangrove": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:04 +0000"
     },
     "done": true
   },
@@ -82921,12 +82918,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_lapis_block": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/stone": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -83284,12 +83275,6 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_planks": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/crimson": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -83984,27 +83969,6 @@
     "criteria": {
       "has_log": "2024-07-21 06:07:05 +0000",
       "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
-  "the_bumblezone:the_queens_desire/journeys_end": {
-    "criteria": {
-      "target_advancement_done_4": "2024-07-21 06:07:04 +0000",
-      "target_advancement_done_5": "2024-07-21 06:07:04 +0000",
-      "target_advancement_done_6": "2024-07-21 06:07:05 +0000",
-      "target_advancement_done_7": "2024-07-21 06:07:02 +0000",
-      "target_advancement_done_1": "2024-07-21 06:07:04 +0000",
-      "target_advancement_done_2": "2024-07-21 06:07:05 +0000",
-      "target_advancement_done_3": "2024-07-21 06:07:05 +0000",
-      "target_advancement_done_16": "2024-07-21 06:07:04 +0000",
-      "target_advancement_done_15": "2024-07-21 06:07:05 +0000",
-      "target_advancement_done_8": "2024-07-21 06:07:04 +0000",
-      "target_advancement_done_12": "2024-07-21 06:07:03 +0000",
-      "target_advancement_done_9": "2024-07-21 06:07:03 +0000",
-      "target_advancement_done_11": "2024-07-21 06:07:04 +0000",
-      "target_advancement_done_14": "2024-07-21 06:07:02 +0000",
-      "target_advancement_done_13": "2024-07-21 06:07:02 +0000",
-      "target_advancement_done_10": "2024-07-21 06:07:02 +0000"
     },
     "done": true
   },
@@ -85258,12 +85222,6 @@
     },
     "done": true
   },
-  "naturalist:recipes/naturalist/cut_limestone_stairs": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:02 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcw/wilderwild/stripped_cypress_log_window": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
@@ -85372,6 +85330,36 @@
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:05 +0000",
       "has_planks": "2024-07-21 06:07:06 +0000"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/recipe_sheep_fossil_from_body": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_birch": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:05 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/bamboo_table": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_bamboo": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:05 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_the_recipe": "2024-07-21 06:07:05 +0000"
     },
     "done": true
   },
@@ -85754,12 +85742,6 @@
       "has_gilded_blackstone": "2024-07-21 06:07:06 +0000",
       "has_gilded_blackstone_stairs": "2024-07-21 06:07:06 +0000",
       "has_the_recipe": "2024-07-21 06:07:06 +0000"
-    },
-    "done": true
-  },
-  "betterarcheology:recipes/recipe_sheep_fossil_from_body": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:05 +0000"
     },
     "done": true
   },
@@ -86974,12 +86956,6 @@
     },
     "done": true
   },
-  "mcwwindows:recipes/blackstone": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/crimson/crimson_glass_trapdoor": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:06 +0000",
@@ -87221,12 +87197,6 @@
     "criteria": {
       "has_mossy_basalt_bricks": "2024-07-21 06:07:06 +0000",
       "has_the_recipe": "2024-07-21 06:07:06 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/sign_post_birch": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:05 +0000"
     },
     "done": true
   },
@@ -87746,12 +87716,6 @@
     },
     "done": true
   },
-  "more_slabs_stairs_and_walls:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
-    },
-    "done": true
-  },
   "more_slabs_stairs_and_walls:recipes/building_blocks/light_gray_terracotta_wall_from_terracotta_and_dye": {
     "criteria": {
       "has_terracotta_wall": "2024-07-21 06:07:06 +0000",
@@ -87946,12 +87910,6 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2024-07-21 06:07:06 +0000"
-    },
-    "done": true
-  },
-  "fishofthieves:recipes/decorations/golden_frame_mangrove_fish_plaque": {
-    "criteria": {
-      "has_mangrove_fish_plaque": "2024-07-21 06:07:04 +0000"
     },
     "done": true
   },
@@ -90262,12 +90220,6 @@
     },
     "done": true
   },
-  "fishofthieves:recipes/decorations/gilded_mangrove_fish_plaque": {
-    "criteria": {
-      "has_mangrove_fish_plaque": "2024-07-21 06:07:04 +0000"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/mcfur/betterend/stripped_lacugrove_end_table": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:06 +0000",
@@ -92414,12 +92366,6 @@
     },
     "done": true
   },
-  "twigs:recipes/tables/bamboo_table": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
       "has_sherd": "2024-07-21 06:07:06 +0000",
@@ -92485,12 +92431,6 @@
       "has_oak_leaves": "2024-07-21 06:07:06 +0000",
       "has_the_recipe": "2024-07-21 06:07:06 +0000",
       "has_oak_leaves_wall": "2024-07-21 06:07:06 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/sign_post_bamboo": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:05 +0000"
     },
     "done": true
   },
@@ -93706,12 +93646,6 @@
     "criteria": {
       "has_diorite_bricks": "2024-07-21 06:07:06 +0000",
       "has_the_recipe": "2024-07-21 06:07:06 +0000"
-    },
-    "done": true
-  },
-  "mcwwindows:recipes/acacia": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:03 +0000"
     },
     "done": true
   },
@@ -95454,12 +95388,6 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/purple_dye": {
-    "criteria": {
-      "has_the_recipe": "2024-07-21 06:07:05 +0000"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_cobbled_purpur_from_purpur_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-07-21 06:07:06 +0000",
@@ -95864,6 +95792,78 @@
       "has_planks": "2024-07-21 06:07:06 +0000"
     },
     "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-21 06:35:53 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
