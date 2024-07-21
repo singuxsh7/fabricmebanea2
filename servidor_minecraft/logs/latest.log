@@ -1985,3 +1985,30 @@ BCLib - The End  BiomeSource (538cea64)
 [06:36:02] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/2190, l='ServerLevel[world]', x=1704.50, y=70.00, z=474.50]
 [06:36:34] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
 [06:36:34] [Server thread/INFO]: Fr4nko7k left the game
+[06:45:07] [User Authenticator #3/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[06:45:08] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:53632] logged in with entity id 2300 at (1666.4822389152544, 69.0, 400.03193792068487)
+[06:45:08] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[06:45:08] [Server thread/INFO]: Loading config from file...
+[06:45:08] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[06:45:08] [Server thread/INFO]: Fr4nko7k joined the game
+[06:45:12] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[06:45:12] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[06:45:12] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[06:45:12] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[06:45:12] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
+[06:46:36] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/2904, l='ServerLevel[world]', x=1727.50, y=73.00, z=476.50]
+[06:47:12] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[06:47:12] [Server thread/INFO]: Fr4nko7k left the game
