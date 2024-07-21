@@ -13,42 +13,6 @@
     },
     "types": {
       "cake": {},
-      "wood_type": {
-        "ecologics.flowering_azalea": true,
-        "ecologics.azalea": true,
-        "ecologics.coconut": true,
-        "ecologics.walnut": true,
-        "betternether.nether_reed": true,
-        "betternether.stalagnate": true,
-        "betternether.willow": true,
-        "betternether.wart": true,
-        "betternether.rubeus": true,
-        "betternether.mushroom_fir": true,
-        "betternether.nether_mushroom": true,
-        "betternether.anchor_tree": true,
-        "betternether.nether_sakura": true,
-        "deeperdarker.echo": true,
-        "betterarcheology.rotten": true,
-        "betterend.mossy_glowshroom": true,
-        "betterend.pythadendron": true,
-        "betterend.end_lotus": true,
-        "betterend.lacugrove": true,
-        "betterend.dragon_tree": true,
-        "betterend.tenanea": true,
-        "betterend.helix_tree": true,
-        "betterend.umbrella_tree": true,
-        "betterend.jellyshroom": true,
-        "betterend.lucernia": true,
-        "hybrid-aquatic.driftwood": true,
-        "promenade.sakura": true,
-        "promenade.maple": true,
-        "promenade.palm": true,
-        "promenade.dark_amaranth": true,
-        "spawn.rotten": true,
-        "wilderwild.baobab": true,
-        "wilderwild.cypress": true,
-        "wilderwild.palm": true
-      },
       "leaves_type": {
         "chipped.apple_acacia": true,
         "chipped.cherry_acacia": true,
@@ -137,9 +101,48 @@
         "promenade.snowy_spruce": true,
         "wilderwild.baobab": true,
         "wilderwild.cypress": true
+      },
+      "wood_type": {
+        "ecologics.flowering_azalea": true,
+        "ecologics.azalea": true,
+        "ecologics.coconut": true,
+        "ecologics.walnut": true,
+        "betternether.nether_reed": true,
+        "betternether.stalagnate": true,
+        "betternether.willow": true,
+        "betternether.wart": true,
+        "betternether.rubeus": true,
+        "betternether.mushroom_fir": true,
+        "betternether.nether_mushroom": true,
+        "betternether.anchor_tree": true,
+        "betternether.nether_sakura": true,
+        "deeperdarker.echo": true,
+        "betterarcheology.rotten": true,
+        "betterend.mossy_glowshroom": true,
+        "betterend.pythadendron": true,
+        "betterend.end_lotus": true,
+        "betterend.lacugrove": true,
+        "betterend.dragon_tree": true,
+        "betterend.tenanea": true,
+        "betterend.helix_tree": true,
+        "betterend.umbrella_tree": true,
+        "betterend.jellyshroom": true,
+        "betterend.lucernia": true,
+        "hybrid-aquatic.driftwood": true,
+        "promenade.sakura": true,
+        "promenade.maple": true,
+        "promenade.palm": true,
+        "promenade.dark_amaranth": true,
+        "spawn.rotten": true,
+        "wilderwild.baobab": true,
+        "wilderwild.cypress": true,
+        "wilderwild.palm": true
       }
     },
     "entries": {
+      "leaves_type": {
+        "mcwfences.hedge": true
+      },
       "wood_type": {
         "chipped.fine_planks": true,
         "chipped.checkered_trapdoor": true,
@@ -339,7 +342,6 @@
         "decorative_blocks.support": true,
         "mcwfurnitures.stripped_lower_bookshelf_drawer": true,
         "chipped.warted_trapdoor": true,
-        "create.window_pane": true,
         "mcwroofs.roof": true,
         "chipped.horizontal_lined_glass": true,
         "mcwfurnitures.stripped_bookshelf_drawer": true,
@@ -365,7 +367,6 @@
         "mcwfences.horse_fence": true,
         "mcwdoors.mystic_door": true,
         "mcwroofs.planks_steep_roof": true,
-        "create.window": true,
         "mcwbridges.rail_bridge": true,
         "chipped.crate": true,
         "chipped.nailed_planks": true,
@@ -393,9 +394,6 @@
         "mcwdoors.bark_glass_door": true,
         "mcwtrpdoors.mystic_trapdoor": true,
         "mcwtrpdoors.barrel_trapdoor": true
-      },
-      "leaves_type": {
-        "mcwfences.hedge": true
       }
     }
   }
