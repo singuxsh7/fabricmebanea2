@@ -2006,3 +2006,1130 @@ BCLib - Nether BiomeSource (2a65d7ed)
 [08:34:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2432ms or 48 ticks behind
 [08:35:29] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
 [08:35:29] [Server thread/INFO]: Fr4nko7k left the game
+[08:39:51] [User Authenticator #4/INFO]: UUID of player Fr4nko7k is 23ea97aa-5595-43d3-992b-ad99c23b8dfa
+[08:39:52] [Server thread/INFO]: Fr4nko7k[/100.104.117.6:57765] logged in with entity id 2366 at (1661.5066391719145, 68.0, 406.77072919149816)
+[08:39:52] [Server thread/INFO]: Syncing config to Fr4nko7k (23ea97aa-5595-43d3-992b-ad99c23b8dfa)
+[08:39:52] [Server thread/INFO]: Loading config from file...
+[08:39:52] [Server thread/INFO]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[08:39:52] [Server thread/INFO]: Fr4nko7k joined the game
+[08:39:57] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[08:39:57] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[08:39:57] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[08:39:57] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[08:39:57] [Server thread/INFO]: [bclib] 	- Offering Folder /workspaces/fabricmebanea2/servidor_minecraft/bclib-sync (allowDelete=true)
+[08:41:38] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/3159, l='ServerLevel[world]', x=1726.50, y=69.00, z=520.50]
+[08:42:28] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1613.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SkeletonVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1547.method_5749(net/minecraft/class_1547.java:219) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1613.method_5749(net/minecraft/class_1613.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:42:28] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-14/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-14/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-14/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-14/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-14/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-14/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:56] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:56] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:59] [Worker-Main-14/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:59] [Worker-Main-14/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:59] [Worker-Main-14/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-14)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:59] [Worker-Main-14/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:43:59] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:43:59] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:03] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:03] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:03] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:03] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:04] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:04] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:04] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:04] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:04] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:04] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:04] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:04] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:04] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:04] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:04] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:04] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:05] [Worker-Main-16/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-16)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:05] [Worker-Main-16/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:19] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1628.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/SpiderVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:19] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:19] [Worker-Main-15/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: Worker-Main-15)
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is+alpha.11.5-9d70c476c16a4c1b.jar:?]
+	at net.minecraft.class_6566.method_43055(class_6566.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.handler$dlf000$moremobvariants$onReadCustomDataFromNbt(com/github/nyuppo/mixin/ZombieVariantsMixin.java [moremobvariants.mixins.json]:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1308.method_5749(net/minecraft/class_1308.java:508) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1642.method_5749(net/minecraft/class_1642.java:419) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1641.method_5749(net/minecraft/class_1641.java:115) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1297.method_5651(net/minecraft/class_1297.java:1930) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_17839(net/minecraft/class_1299.java:549) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_17974(net/minecraft/class_156.java:513) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:548) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:430) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:415) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:347) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3781.method_16626(net/minecraft/class_3781.java:124) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_27236(net/minecraft/class_3790.java:89) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3790.method_14931(net/minecraft/class_3790.java:85) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:320) ~[server-intermediary.jar:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-31.1-jre.jar:?]
+	at net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_51375(net/minecraft/class_2806.java:108) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806$class_3768.doWork(class_2806.java:309) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2806.method_12154(com/ishland/c2me/opts/chunk_access/mixin/region_capture/MixinChunkStatus.java [c2me-opts-chunk-access.mixins.json]:50) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3898.method_17225(net/minecraft/class_3898.java:684) ~[server-intermediary.jar:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3898.method_17224(net/minecraft/class_3898.java:673) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_3900.method_17634(net/minecraft/class_3900.java:62) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16907(class_3846.java:91) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.method_16900(class_3846.java:146) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3846.run(class_3846.java:102) ~[server-intermediary.jar:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[08:44:19] [Worker-Main-15/INFO]: [STDOUT]: Negative index in crash report handler (0/32)
+[08:44:45] [Server thread/WARN]: UUID of added entity already exists: class_1540['Falling Hanging Coconut'/4586, l='ServerLevel[world]', x=1727.50, y=69.00, z=522.50]
+[08:45:08] [Server thread/INFO]: Fr4nko7k lost connection: Disconnected
+[08:45:08] [Server thread/INFO]: Fr4nko7k left the game
